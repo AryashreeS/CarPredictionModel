@@ -1,0 +1,26 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║          CAR PRICE PREDICTION — CONCLUSION REPORT           ║
+╠══════════════════════════════════════════════════════════════╣
+║  Dataset          : 205 cars × 25 features (after cleaning) ║
+║  Model            : Multiple Linear Regression               ║
+║  Train / Test     : 80% / 20%  (164 / 41 samples)          ║
+╠══════════════════════════════════════════════════════════════╣
+║  EVALUATION METRICS                                          ║
+║  ─────────────────────────────────────────────────────────  ║
+║  Train R²         : 0.9103                                ║
+║  Test  R²         : 0.8459                                ║
+║  Test  MSE        : $12,163,932.55                       ║
+║  Test  RMSE       : $    3,487.68                       ║
+║  Test  MAE        : $    2,090.53                       ║
+╠══════════════════════════════════════════════════════════════╣
+║  KEY INSIGHTS                                                ║
+║  1. enginesize, curbweight, horsepower have the strongest   ║
+║     positive correlation with price.                         ║
+║  2. citympg & highwaympg are negatively correlated with     ║
+║     price (performance cars guzzle fuel).                    ║
+║  3. The model explains 84.6% of the variance in price.  ║
+║  4. RMSE of ~$3,488 is reasonable for the price range   ║
+║     of $5,118 – $45,400.                                     ║
+║  5. Real-time predictions work via the saved .pkl model.    ║
+╚══════════════════════════════════════════════════════════════╝
